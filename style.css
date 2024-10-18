@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    flex-wrap: wrap;
+
+}
+
+.wheel-container {
+    position: relative;
+    text-align: center;
+}
+
+#pointer {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid red;
+    position: absolute;
+    top: 50px;
+    left: 230px; /* Đặt vị trí để kim nằm giữa canvas */
+    z-index: 1;
+}
+
+#spin-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+h1{
+    width: 100%;
+    color: #000;
+    font-size: 50px;
+    text-align: center;
+}
