@@ -4,13 +4,13 @@ const spinButton = document.getElementById('spin-button');
 
 // Các phần tử trên vòng quay với tỉ lệ xuất hiện khác nhau
 const segments = [
-    { label: '500.000 VND', weight: 0 },  
+    { label: '1 lượt bốc quà', weight: 0.3 },  
     { label: '500.000 VND', weight: 0 },
-    { label: '500.000 VND', weight: 0 }, 
+    { label: '1 lượt bốc quà', weight: 0.3 }, 
     { label: '50.000', weight: 0 },
     { label: 'Một tràng pháo tay', weight: 0.3 }, 
-    { label: 'Một vé gửi xe miễn phí', weight: 0.3 },
-    { label: 'Hát một bài', weight: 0.3 },
+    { label: 'Một vé gửi xe miễn phí', weight: 0.2 },
+    { label: 'Hát một bài', weight: 0.2 },
     { label: 'chỉ định 1 người hát', weight: 0.2 },
     { label: '5000 VND', weight: 0.2 },
     { label: '500.000 VND', weight: 0 }
